@@ -1,5 +1,5 @@
 platform :ios, '8.0'
-target 'WenZhouCarLansB' do
+target 'WenZhouCars' do
 
 pod 'AFNetworking', '~> 3.1.0'
 pod 'SDWebImage', '~> 4.0.0-beta'
