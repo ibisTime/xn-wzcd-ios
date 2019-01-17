@@ -1,0 +1,41 @@
+#import <Foundation/Foundation.h>
+@interface SurvuyPeopleModel : NSObject
+@property (nonatomic , copy)NSString *creditCode;
+@property (nonatomic , copy)NSString *mobile;
+@property (nonatomic , copy)NSString *idNoFront;
+@property (nonatomic , copy)NSString *idNoReverse;
+@property (nonatomic , copy)NSString *loanRole;
+@property (nonatomic , copy)NSString *bankCreditResultRemark;
+@property (nonatomic , copy)NSString *authPdf;
+@property (nonatomic , copy)NSString *code;
+@property (nonatomic , copy)NSString *userName;
+@property (nonatomic , copy)NSString *relation;
+@property (nonatomic , copy)NSString *idNo;
+@property (nonatomic , copy)NSString *bankCreditResultPdf;
+@property (nonatomic , copy)NSString *creditCardOccupation;
+@property (nonatomic , copy)NSString *dkdy2YearOverTimes;
+@property (nonatomic , copy)NSString *dkdyMaxOverAmount;
+@property (nonatomic , copy)NSString *dkdy6MonthAvgAmount;
+@property (nonatomic , copy)NSString *hkxy2YearOverTimes;
+@property (nonatomic , copy)NSString *xykMonthMaxOverAmount;
+@property (nonatomic , copy)NSString *hkxyCurrentOverAmount;
+@property (nonatomic , copy)NSString *hkxyUnsettleCount;
+@property (nonatomic , copy)NSString *dkdyAmount;
+@property (nonatomic , copy)NSString *xyk6MonthUseAmount;
+@property (nonatomic , copy)NSString *xykCurrentOverAmount;
+@property (nonatomic , copy)NSString *xykCreditAmount;
+@property (nonatomic , copy)NSString *dkdyCount;
+@property (nonatomic , copy)NSString *hkxyMonthMaxOverAmount;
+@property (nonatomic , copy)NSString *hkxy6MonthAvgAmount;
+@property (nonatomic , copy)NSString *xykCount;
+@property (nonatomic , copy)NSString *dkdyCurrentOverAmount;
+@property (nonatomic , copy)NSString *xyk2YearOverTimes;
+@property (nonatomic , copy)NSString *hkxyUnsettleAmount;
+@property (nonatomic , copy)NSString *outGuaranteesAmount;
+@property (nonatomic , copy)NSString *outGuaranteesCount;
+@property (nonatomic , copy)NSString *outGuaranteesRemark;
+@property (nonatomic , copy)NSString *interviewPic;
+@property (nonatomic , strong)NSArray *pics1;
+@property (nonatomic , strong)NSArray *pics2;
+@property (nonatomic , strong)NSArray *pics3;
+@end
