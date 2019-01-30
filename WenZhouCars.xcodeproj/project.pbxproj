@@ -291,6 +291,7 @@
 		7AABEB11214A3F9300283BC7 /* ContactMortgageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABEB10214A3F9300283BC7 /* ContactMortgageVC.m */; };
 		7AABEB14214A3FA400283BC7 /* ContactMortgageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABEB13214A3FA400283BC7 /* ContactMortgageTableView.m */; };
 		9C2CB3FE3017CE66DB23156B /* libPods-WenZhouCars.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F09695FE0872801492B0DC /* libPods-WenZhouCars.a */; };
+		B88E541E21F951B500C33040 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88E541D21F951B500C33040 /* RegisterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -891,6 +892,8 @@
 		7AABEB10214A3F9300283BC7 /* ContactMortgageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactMortgageVC.m; sourceTree = "<group>"; };
 		7AABEB12214A3FA400283BC7 /* ContactMortgageTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactMortgageTableView.h; sourceTree = "<group>"; };
 		7AABEB13214A3FA400283BC7 /* ContactMortgageTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactMortgageTableView.m; sourceTree = "<group>"; };
+		B88E541C21F951B500C33040 /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		B88E541D21F951B500C33040 /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		F203F089782264CB0D936F5D /* Pods-WenZhouCars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenZhouCars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WenZhouCars/Pods-WenZhouCars.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1058,6 +1061,8 @@
 				7A76AB99213523340081AB5C /* CustomTextFieldView.m */,
 				7A76AB98213523340081AB5C /* SendCodeView.h */,
 				7A76AB9B213523350081AB5C /* SendCodeView.m */,
+				B88E541C21F951B500C33040 /* RegisterController.h */,
+				B88E541D21F951B500C33040 /* RegisterController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -3363,6 +3368,7 @@
 				7AABE39F213CDA3D00283BC7 /* SurveyInformationTableView.m in Sources */,
 				7A76ABA1213523360081AB5C /* ChangePasswordVC.m in Sources */,
 				7A76AB6A2133DC0E0081AB5C /* NSObject+MJProperty.m in Sources */,
+				B88E541E21F951B500C33040 /* RegisterController.m in Sources */,
 				7AABE736213CDB0A00283BC7 /* ADPeopleTableView.m in Sources */,
 				7AABEA69214654E000283BC7 /* AccessApplyAddGPSTableView.m in Sources */,
 				7A76AB732133DC0E0081AB5C /* IQNSArray+Sort.m in Sources */,

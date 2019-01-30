@@ -1,11 +1,15 @@
 #import "LoginVC.h"
 #import "HomeVC.h"
 #import "ChangePasswordVC.h"
+#import <AFNetworking.h>
+#import "RegisterController.h"
 @interface LoginVC ()
 @property (nonatomic , strong)UITextField *mobileTextFd;
 @property (nonatomic , strong)UITextField *passWordTextFd;
 @property (nonatomic , strong)UIButton *ForgotPasswordButton;
 @property (nonatomic , strong)UIButton *loginButton;
+@property (nonatomic , strong)UIButton *registerButton;
+
 @end
 @implementation LoginVC
 -(UIButton *)ForgotPasswordButton
@@ -18,6 +22,16 @@
     }
     return _ForgotPasswordButton;
 }
+-(UIButton *)registerButton
+{
+    if (!_registerButton) {
+        _registerButton = [UIButton buttonWithTitle:@"注册" titleColor:GaryTextColor backgroundColor:kClearColor titleFont:14 cornerRadius:0];
+        _registerButton.frame = CGRectMake( 0, 310, 60, 44);
+        [_registerButton addTarget:self action:@selector(buttonMethodRegistClick:) forControlEvents:(UIControlEventTouchUpInside)];
+        _registerButton.tag = 1000;
+    }
+    return _registerButton;
+}
 -(UIButton *)loginButton
 {
     if (!_loginButton) {
@@ -27,6 +41,14 @@
         _loginButton.tag = 101;
     }
     return _loginButton;
+}
+-(void)buttonMethodRegistClick:(UIButton *)sender
+{
+    RegisterController *vc = [RegisterController new];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    vc.state = @"100";
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 -(void)buttonMethodClick:(UIButton *)sender
 {
@@ -92,6 +114,74 @@
     [self customTypeSetUp];
     [self.view addSubview:self.ForgotPasswordButton];
     [self.view addSubview:self.loginButton];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    [self checkworking];
+}
+// 检测网络状态
+-(void)checkworking
+
+{
+    
+    // 创建管理者
+    AFNetworkReachabilityManager *manger = [AFNetworkReachabilityManager sharedManager];
+    
+    // 查询网络状态
+    
+    /*    AFNetworkReachabilityStatusUnknown          = -1, // 代表不知道什么网络
+     
+         AFNetworkReachabilityStatusNotReachable     = 0,  // 代表没有网络
+     
+         AFNetworkReachabilityStatusReachableViaWWAN = 1,    // 代表蜂窝数据(你自己的网络)
+     
+         AFNetworkReachabilityStatusReachableViaWiFi = 2, // 代表 wifi
+     */
+    [manger setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        switch (status) {
+            case 0:
+                //未知
+                break;
+            case 1:
+                //4G
+                [self checkRegister];
+                break;
+            case 2:
+                ///wifi
+                [self checkRegister];
+
+                break;
+            default:
+                break;
+        }
+    }];
+    [manger startMonitoring];
+    
+}
+
+-(void)checkRegister
+{
+    
+    
+    TLNetworking *http = [TLNetworking new];
+    http.code = @"630047";
+    http.showView = self.view;
+    http.parameters[@"key"] = @"is_register";
+  
+    
+    [http postWithSuccess:^(id responseObject) {
+        NSString *str = responseObject[@"data"][@"cvalue"];
+        if ([str isEqualToString:@"1"]) {
+            [self.view addSubview:self.registerButton];
+        }
+        
+    } failure:^(NSError *error) {
+        
+    }];
 }
 -(void)customTypeSetUp
 {
@@ -122,11 +212,7 @@
 {
     [self.view endEditing:YES];
 }
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
-}
+
 -(void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
