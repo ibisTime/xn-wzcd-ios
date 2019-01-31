@@ -308,6 +308,7 @@
         [USERDEFAULTS setObject:responseObject[@"data"] forKey:NODE];
     } failure:^(NSError *error) {
     }];
+    
     TLNetworking *http1 = [TLNetworking new];
     http1.isShowMsg = NO;
     http1.code = @"630036";

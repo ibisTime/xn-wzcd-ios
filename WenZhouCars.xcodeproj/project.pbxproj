@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F19AC212202D65D0090BF84 /* LEEAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19AC182202D65D0090BF84 /* LEEAlert.m */; };
+		1F19AC222202D65D0090BF84 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19AC1C2202D65D0090BF84 /* UIView+SDAutoLayout.m */; };
+		1F19AC232202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19AC1F2202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.m */; };
 		7A224417214BA90F00C217BD /* SendListOfLendingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A224416214BA90F00C217BD /* SendListOfLendingVC.m */; };
 		7A22441A214BA9B800C217BD /* SendListOfLendingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A224419214BA9B800C217BD /* SendListOfLendingTableView.m */; };
 		7A76AA772133D9830081AB5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AA762133D9830081AB5C /* AppDelegate.m */; };
@@ -93,9 +96,6 @@
 		7A76ABB5213523800081AB5C /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABAE2135237F0081AB5C /* TextFieldCell.m */; };
 		7A76ABB6213523800081AB5C /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABB0213523800081AB5C /* CollectionViewCell.m */; };
 		7A76ABBD2135244E0081AB5C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABBC2135244E0081AB5C /* HomeVC.m */; };
-		7A76ABE0213524BC0081AB5C /* LEEAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABC1213524BC0081AB5C /* LEEAlert.m */; };
-		7A76ABE1213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABC7213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.m */; };
-		7A76ABE2213524BC0081AB5C /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABC9213524BC0081AB5C /* UIView+SDAutoLayout.m */; };
 		7A76ABE3213524BC0081AB5C /* FontSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABCD213524BC0081AB5C /* FontSizeView.m */; };
 		7A76ABE4213524BC0081AB5C /* OpenPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABD0213524BC0081AB5C /* OpenPushView.m */; };
 		7A76ABE5213524BC0081AB5C /* SelectedListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76ABD3213524BC0081AB5C /* SelectedListModel.m */; };
@@ -313,6 +313,14 @@
 
 /* Begin PBXFileReference section */
 		01F09695FE0872801492B0DC /* libPods-WenZhouCars.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WenZhouCars.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F19AC172202D65D0090BF84 /* LEEAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlertHelper.h; sourceTree = "<group>"; };
+		1F19AC182202D65D0090BF84 /* LEEAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEEAlert.m; sourceTree = "<group>"; };
+		1F19AC192202D65D0090BF84 /* LEEAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlert.h; sourceTree = "<group>"; };
+		1F19AC1C2202D65D0090BF84 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		1F19AC1D2202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		1F19AC1E2202D65D0090BF84 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		1F19AC1F2202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		1F19AC202202D65D0090BF84 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		321DA0A2156C48E7A6630E4D /* Pods-WenZhouCars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenZhouCars.release.xcconfig"; path = "Pods/Target Support Files/Pods-WenZhouCars/Pods-WenZhouCars.release.xcconfig"; sourceTree = "<group>"; };
 		7A224415214BA90F00C217BD /* SendListOfLendingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendListOfLendingVC.h; sourceTree = "<group>"; };
 		7A224416214BA90F00C217BD /* SendListOfLendingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendListOfLendingVC.m; sourceTree = "<group>"; };
@@ -489,14 +497,6 @@
 		7A76ABB0213523800081AB5C /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		7A76ABBB2135244E0081AB5C /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		7A76ABBC2135244E0081AB5C /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		7A76ABC0213524BC0081AB5C /* LEEAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlert.h; sourceTree = "<group>"; };
-		7A76ABC1213524BC0081AB5C /* LEEAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEEAlert.m; sourceTree = "<group>"; };
-		7A76ABC2213524BC0081AB5C /* LEEAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlertHelper.h; sourceTree = "<group>"; };
-		7A76ABC5213524BC0081AB5C /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
-		7A76ABC6213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
-		7A76ABC7213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
-		7A76ABC8213524BC0081AB5C /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
-		7A76ABC9213524BC0081AB5C /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		7A76ABCC213524BC0081AB5C /* FontSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeView.h; sourceTree = "<group>"; };
 		7A76ABCD213524BC0081AB5C /* FontSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeView.m; sourceTree = "<group>"; };
 		7A76ABCF213524BC0081AB5C /* OpenPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenPushView.h; sourceTree = "<group>"; };
@@ -924,6 +924,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F19AC162202D65D0090BF84 /* LEEAlert */ = {
+			isa = PBXGroup;
+			children = (
+				1F19AC172202D65D0090BF84 /* LEEAlertHelper.h */,
+				1F19AC182202D65D0090BF84 /* LEEAlert.m */,
+				1F19AC192202D65D0090BF84 /* LEEAlert.h */,
+			);
+			name = LEEAlert;
+			path = "../../../../../../xn-wzcd-cfront/MinicarsLife/Classes/Tools/CustomUI/Bounced弹框/LEEAlert";
+			sourceTree = "<group>";
+		};
+		1F19AC1A2202D65D0090BF84 /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				1F19AC1B2202D65D0090BF84 /* SDAutoLayout */,
+			);
+			name = Librarys;
+			path = "../../../../../../xn-wzcd-cfront/MinicarsLife/Classes/Tools/CustomUI/Bounced弹框/Librarys";
+			sourceTree = "<group>";
+		};
+		1F19AC1B2202D65D0090BF84 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1F19AC1C2202D65D0090BF84 /* UIView+SDAutoLayout.m */,
+				1F19AC1D2202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.h */,
+				1F19AC1E2202D65D0090BF84 /* SDAutoLayout.h */,
+				1F19AC1F2202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.m */,
+				1F19AC202202D65D0090BF84 /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
 		51098A8E0C4B78594242120C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1513,41 +1545,11 @@
 		7A76ABBE213524BC0081AB5C /* 混淆代码 */ = {
 			isa = PBXGroup;
 			children = (
-				7A76ABBF213524BC0081AB5C /* LEEAlert */,
-				7A76ABC3213524BC0081AB5C /* Librarys */,
+				1F19AC162202D65D0090BF84 /* LEEAlert */,
+				1F19AC1A2202D65D0090BF84 /* Librarys */,
 				7A76ABCA213524BC0081AB5C /* Views */,
 			);
 			path = "混淆代码";
-			sourceTree = "<group>";
-		};
-		7A76ABBF213524BC0081AB5C /* LEEAlert */ = {
-			isa = PBXGroup;
-			children = (
-				7A76ABC0213524BC0081AB5C /* LEEAlert.h */,
-				7A76ABC1213524BC0081AB5C /* LEEAlert.m */,
-				7A76ABC2213524BC0081AB5C /* LEEAlertHelper.h */,
-			);
-			path = LEEAlert;
-			sourceTree = "<group>";
-		};
-		7A76ABC3213524BC0081AB5C /* Librarys */ = {
-			isa = PBXGroup;
-			children = (
-				7A76ABC4213524BC0081AB5C /* SDAutoLayout */,
-			);
-			path = Librarys;
-			sourceTree = "<group>";
-		};
-		7A76ABC4213524BC0081AB5C /* SDAutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				7A76ABC5213524BC0081AB5C /* SDAutoLayout.h */,
-				7A76ABC6213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.h */,
-				7A76ABC7213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.m */,
-				7A76ABC8213524BC0081AB5C /* UIView+SDAutoLayout.h */,
-				7A76ABC9213524BC0081AB5C /* UIView+SDAutoLayout.m */,
-			);
-			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 		7A76ABCA213524BC0081AB5C /* Views */ = {
@@ -3202,6 +3204,7 @@
 				7AABE7B7213CDCAD00283BC7 /* QNUpToken.m in Sources */,
 				7AABEA462140CB5C00283BC7 /* DataCollectedVC.m in Sources */,
 				7AABE7D2213CDFE600283BC7 /* ListCell.m in Sources */,
+				1F19AC212202D65D0090BF84 /* LEEAlert.m in Sources */,
 				7AABE7C7213CDCAD00283BC7 /* QNRefresher.m in Sources */,
 				7AABEB11214A3F9300283BC7 /* ContactMortgageVC.m in Sources */,
 				7AABEA142140BEF500283BC7 /* GPSClaimsVC.m in Sources */,
@@ -3270,7 +3273,6 @@
 				7AABEB14214A3FA400283BC7 /* ContactMortgageTableView.m in Sources */,
 				7A76AB5E2133DC0E0081AB5C /* UIColor+Extension.m in Sources */,
 				7AABE374213CCF2000283BC7 /* IconView.m in Sources */,
-				7A76ABE2213524BC0081AB5C /* UIView+SDAutoLayout.m in Sources */,
 				7A76ABE6213524BC0081AB5C /* SelectedListView.m in Sources */,
 				7AABEB0A214A392D00283BC7 /* InvoiceNotMatchTableView.m in Sources */,
 				7AABEA552140CB8D00283BC7 /* SenderTableView.m in Sources */,
@@ -3352,6 +3354,7 @@
 				7A76AB5A2133DC0E0081AB5C /* NSString+Date.m in Sources */,
 				7AABE7AE213CDCAD00283BC7 /* QNResponseInfo.m in Sources */,
 				7A76AB5C2133DC0E0081AB5C /* UIButton+Custom.m in Sources */,
+				1F19AC232202D65D0090BF84 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				7AABE812213D26EA00283BC7 /* ApplyTableView9.m in Sources */,
 				7AABEA302140C36F00283BC7 /* HistoryUserVC.m in Sources */,
 				7AABE9B5213F703400283BC7 /* InstallationDetailsVC.m in Sources */,
@@ -3367,6 +3370,7 @@
 				7AABE7A4213CDCAD00283BC7 /* QN_GTM_Base64.m in Sources */,
 				7AABE39F213CDA3D00283BC7 /* SurveyInformationTableView.m in Sources */,
 				7A76ABA1213523360081AB5C /* ChangePasswordVC.m in Sources */,
+				1F19AC222202D65D0090BF84 /* UIView+SDAutoLayout.m in Sources */,
 				7A76AB6A2133DC0E0081AB5C /* NSObject+MJProperty.m in Sources */,
 				B88E541E21F951B500C33040 /* RegisterController.m in Sources */,
 				7AABE736213CDB0A00283BC7 /* ADPeopleTableView.m in Sources */,
@@ -3389,7 +3393,6 @@
 				7AABE9BD213F703F00283BC7 /* GPSInstallationModel.m in Sources */,
 				7A76ABB2213523800081AB5C /* ChooseCell.m in Sources */,
 				7A76AB892133DC0E0081AB5C /* UIView+Banner.m in Sources */,
-				7A76ABE0213524BC0081AB5C /* LEEAlert.m in Sources */,
 				7AABE7AC213CDCAD00283BC7 /* QNSystem.m in Sources */,
 				7AABE7C0213CDCAD00283BC7 /* QNDnspodFree.m in Sources */,
 				7AABEA9121479B2200283BC7 /* BankLendingDetailsVC.m in Sources */,
@@ -3411,7 +3414,6 @@
 				7AABEA372140C37900283BC7 /* HistoryUserDetailsTableView.m in Sources */,
 				7AABE7C9213CDCAD00283BC7 /* QNGetAddrInfo.m in Sources */,
 				7AABEA3F2140CB5100283BC7 /* DataTransferVC.m in Sources */,
-				7A76ABE1213524BC0081AB5C /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				7AABEA7B21466E4400283BC7 /* BankCreditReportVC.m in Sources */,
 				7AABE7B9213CDCAD00283BC7 /* QNIpModel.m in Sources */,
 				7A76AB592133DC0E0081AB5C /* NSDictionary+SetNullWithStr.m in Sources */,
@@ -3616,7 +3618,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4M8KD7B9X5;
+				DEVELOPMENT_TEAM = 3ZCW993X44;
 				GCC_PREFIX_HEADER = WenZhouCars/Classes/Macro/ToQuantifyTheMasterPCH.pch;
 				INFOPLIST_FILE = WenZhouCars/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -3640,7 +3642,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4M8KD7B9X5;
+				DEVELOPMENT_TEAM = 3ZCW993X44;
 				GCC_PREFIX_HEADER = WenZhouCars/Classes/Macro/ToQuantifyTheMasterPCH.pch;
 				INFOPLIST_FILE = WenZhouCars/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
