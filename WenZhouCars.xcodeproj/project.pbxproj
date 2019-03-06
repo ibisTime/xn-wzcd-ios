@@ -34,7 +34,6 @@
 		7A76AB5E2133DC0E0081AB5C /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AADC2133DC0B0081AB5C /* UIColor+Extension.m */; };
 		7A76AB5F2133DC0E0081AB5C /* UIColor+theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AADE2133DC0B0081AB5C /* UIColor+theme.m */; };
 		7A76AB602133DC0E0081AB5C /* UILable+convience.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AAE12133DC0B0081AB5C /* UILable+convience.m */; };
-		7A76AB612133DC0E0081AB5C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A76AAE32133DC0C0081AB5C /* Info.plist */; };
 		7A76AB622133DC0E0081AB5C /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AAE62133DC0C0081AB5C /* MJExtensionConst.m */; };
 		7A76AB632133DC0E0081AB5C /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AAE82133DC0C0081AB5C /* MJFoundation.m */; };
 		7A76AB642133DC0E0081AB5C /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76AAEA2133DC0C0081AB5C /* MJProperty.m */; };
@@ -3102,7 +3101,6 @@
 			files = (
 				7A76AB812133DC0E0081AB5C /* IQKeyboardManager.bundle in Resources */,
 				7A76AB8E2133DC0E0081AB5C /* UITableViewPlaceholder.bundle in Resources */,
-				7A76AB612133DC0E0081AB5C /* Info.plist in Resources */,
 				7A76AA822133D98E0081AB5C /* LaunchScreen.storyboard in Resources */,
 				7A76AB832133DC0E0081AB5C /* README.md in Resources */,
 				7AABE865213E354F00283BC7 /* SGQRCode.bundle in Resources */,

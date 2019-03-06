@@ -48,6 +48,8 @@
     }
     return object;
 }
+
+
 - (BOOL) deptNumInputShouldNumber:(NSString *)str
 {
     if (str.length == 0) {
